@@ -1,9 +1,7 @@
-<!--This is where the form will go-->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Engage MRU</title>
+        <title>Contact Us</title>
         <meta charset="utf-8">
 		<meta name="keywords" content="MRU, extracirriculars, clubs, Contact">
         <meta name="description" content="Extracirricular Contact Us Form">
@@ -11,112 +9,75 @@
     </head>
 
     <body>
+        <nav>
+            <a href="../index.html">Home</a>
+        </nav>
+
         <main>
+            <h1>Contact Us</h1>
             <form id="contactUs" method="post" action="mailto:engageMRU@mtroyal.ca">
-                <section>
+
+                <div>
                     <fieldset>                    
-                        <legend>Personal Information</legend>
+                        <legend>Email Information</legend>
 
-                        <br/>
-
+                        <!--size is 50 because that is the width needed if filled max width characters, such as em dashes or "M"-->
                         <label for="subject">Subject:*</label>
-                        <input type="text" name="subject" id="subject" maxlength="30" required/>
-                        <small>Cannot exceed 30</small>
-
-                        <br/><br/>
-
-                        <!--phone number pattern given in class slides-->
-                        <label for="phone">Phone*</label>
-                        <input type="text" name="phone" id="phone" placeholder="123-456-789"  pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{3}" maxlength="11" required/>
-                        
-                        <br/><br/>
-
-                        <!--Made pattern on my own after learning from above-->
-                        <label for="email">Email*</label>
-                        <input type="email" name="email" id="email" placeholder="name@mtroyal.ca" pattern="^[a-zA-Z0-9]{1,}@mtroyal.ca$" required/>
+                        <input type="text" name="subject" id="subject" maxlength="30" size="50" required/>
                         <br/>
-                        <small>Must be your MRU GMail address</small>
-                    </fieldset>
-                </section>
+                        <small>Cannot exceed 30 characters.</small>
 
-                <section>
+                        <br/><br/>
+
+                        <label for="emailBody">Email Body:*</label>
+                        <br/>
+                        <textarea id="emailBody" name="emailBody" rows="6" cols="70" placeholder="Please supply the details of your inquiry here." required></textarea>
+
+                        <br/><br/>
+
+                         <label for="emailAddress">Email Address:*</label>
+                         <input type="email" name="emailAddress" id="emailAddress" placeholder="name@gmail.com" pattern="^[a-zA-Z0-9]{1,}@gmail.com$" required/>
+                         <br/>
+                         <small>Must be a valid email address and must be a gmail.</small>
+
+                         <br/><br/>
+
+                        <label for="phone">Phone number:</label>
+                        <input type="text" name="phone" id="phone" placeholder="012-345-6789"  pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="12"/>
+                    </fieldset>
+                </div>
+
+                <br/><br/>
+
+                <div>
                     <fieldset>
-                        <legend>Flight Information</legend>
+                        <legend>Additional Information</legend>
 
-                        <p>Flight Type:</p>                
+                        <p>Type of Inquiry:</p>
+                        <label for="customerService">Customer Service</label>
+                        <input type="radio" name="inquiryType" id="customerService" value="customerService"/>
 
-                        <label for="oneWay">One-Way</label>
-                        <input type="radio" name="flightType" value="oneWay" id="oneWay"/>
-                        
-
-                        <label for="twoWay">Two-Way</label>
-                        <input type="radio" name="flightType" value="twoWay" id="twoWay"/>
+                        <label for="business">Business</label>
+                        <input type="radio" name="inquiryType" id="business" value="business"/>
                         
                         <br/><br/>
 
-                        <!-- Airport codes found at: https://www.nationsonline.org/oneworld/IATA_Codes/airport_code_list.htm-->
-                        <label>To:</label>
-                        <select>
-                            <option value="yfo">Flin Flon, Canada</option>
-                            <option value="fut">Futuna, Wallis and Futuna Islands</option>
-                            <option value="gnb">Grenoble, France</option>
-                        </select>
-
-                        <br/><br/>
-
-                        <label>From:</label>
-                        <select>
-                            <option value="yyc">Calgary - Calgary International Airport, Canada</option>
-                            <option value="czm">Cozmel, Mexico</option>
-                            <option value="cyu">Cuyo, Phillipines</option>
-                        </select>
-                        
-                        <br/><br/>
-            
-                        <label for="departure">Departure Date:</label>
-                        <input type="date" id="departure" name="departure"/>
-
-                        <br/><br/>
-
-                        <label for="arrival"> Arrival Date:</label>
-                        <input type="date"  id="arrival" name="arrival"/>
-                        
-                        <br/><br/>
-
-                        <label>Number of Passengers:</label>
-                        <input type="number" name="numPassengers" value="1" min="1"/>
-                    </fieldset>
-                </section>
-
-                <section>
-                    <fieldset>
-                        <legend>Extras</legend>
-
-                        <label>Additions:</label>
+                        <label>How would you like to be contacted? (Select all that apply)</label>
                         <br/>
-                        <label for="hotel">Add a hotel?</label>
-                        <input type="checkbox" name="hotel" value="yes" id="hotel">
+                        <label for="contactByPhone">Phone</label>
+                        <input type="checkbox" name="contactByPhone" value="yes" id="contactByPhone">
 
-                        <label for="car">Add a car?</label>
-                        <input type="checkbox" name="car" value="yes" id="car">
-
-                        <label for="travelGuide">Contact a travel guide for you?</label>
-                        <input type="checkbox" name="travelGuide" value="yes" id="travelGuide">
-
-                        <br/><br/>
-                        <label for="concerns">Special Concerns?</label>
-                        <br/>
-                        <!-- Found <textarea> tag details at https://www.w3schools.com/tags/tag_textarea.asp-->
-                        <textarea id="concerns" name="concerns" rows="2" cols="40" placeholder="Anything else you would like to tell us?"></textarea>
+                        <label for="contactByEmail">Email</label>
+                        <input type="checkbox" name="contactByEmail" value="yes" id="contactByEmail">
                     </fieldset>
-                </section>
+                </div>
 
-                <br/>
+                <p>* denotes a required field</p>
+
                 <footer>
-                    <input type="submit" value="Submit" />
-                    <input type="reset" value="Reset"/>
+                    <input type="submit" value="Send Message" />
+                    <input type="reset" value="Clear"/>
                 </footer>
-
             </form>
         </main>
     </body>
