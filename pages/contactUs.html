@@ -1,0 +1,123 @@
+<!--This is where the form will go-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Engage MRU</title>
+        <meta charset="utf-8">
+		<meta name="keywords" content="MRU, extracirriculars, clubs, Contact">
+        <meta name="description" content="Extracirricular Contact Us Form">
+        <meta name="author" content="Trey London">
+    </head>
+
+    <body>
+        <main>
+            <form id="contactUs" method="post" action="mailto:engageMRU@mtroyal.ca">
+                <section>
+                    <fieldset>                    
+                        <legend>Personal Information</legend>
+
+                        <br/>
+
+                        <label for="subject">Subject:*</label>
+                        <input type="text" name="subject" id="subject" maxlength="30" required/>
+                        <small>Cannot exceed 30</small>
+
+                        <br/><br/>
+
+                        <!--phone number pattern given in class slides-->
+                        <label for="phone">Phone*</label>
+                        <input type="text" name="phone" id="phone" placeholder="123-456-789"  pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{3}" maxlength="11" required/>
+                        
+                        <br/><br/>
+
+                        <!--Made pattern on my own after learning from above-->
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" placeholder="name@mtroyal.ca" pattern="^[a-zA-Z0-9]{1,}@mtroyal.ca$" required/>
+                        <br/>
+                        <small>Must be your MRU GMail address</small>
+                    </fieldset>
+                </section>
+
+                <section>
+                    <fieldset>
+                        <legend>Flight Information</legend>
+
+                        <p>Flight Type:</p>                
+
+                        <label for="oneWay">One-Way</label>
+                        <input type="radio" name="flightType" value="oneWay" id="oneWay"/>
+                        
+
+                        <label for="twoWay">Two-Way</label>
+                        <input type="radio" name="flightType" value="twoWay" id="twoWay"/>
+                        
+                        <br/><br/>
+
+                        <!-- Airport codes found at: https://www.nationsonline.org/oneworld/IATA_Codes/airport_code_list.htm-->
+                        <label>To:</label>
+                        <select>
+                            <option value="yfo">Flin Flon, Canada</option>
+                            <option value="fut">Futuna, Wallis and Futuna Islands</option>
+                            <option value="gnb">Grenoble, France</option>
+                        </select>
+
+                        <br/><br/>
+
+                        <label>From:</label>
+                        <select>
+                            <option value="yyc">Calgary - Calgary International Airport, Canada</option>
+                            <option value="czm">Cozmel, Mexico</option>
+                            <option value="cyu">Cuyo, Phillipines</option>
+                        </select>
+                        
+                        <br/><br/>
+            
+                        <label for="departure">Departure Date:</label>
+                        <input type="date" id="departure" name="departure"/>
+
+                        <br/><br/>
+
+                        <label for="arrival"> Arrival Date:</label>
+                        <input type="date"  id="arrival" name="arrival"/>
+                        
+                        <br/><br/>
+
+                        <label>Number of Passengers:</label>
+                        <input type="number" name="numPassengers" value="1" min="1"/>
+                    </fieldset>
+                </section>
+
+                <section>
+                    <fieldset>
+                        <legend>Extras</legend>
+
+                        <label>Additions:</label>
+                        <br/>
+                        <label for="hotel">Add a hotel?</label>
+                        <input type="checkbox" name="hotel" value="yes" id="hotel">
+
+                        <label for="car">Add a car?</label>
+                        <input type="checkbox" name="car" value="yes" id="car">
+
+                        <label for="travelGuide">Contact a travel guide for you?</label>
+                        <input type="checkbox" name="travelGuide" value="yes" id="travelGuide">
+
+                        <br/><br/>
+                        <label for="concerns">Special Concerns?</label>
+                        <br/>
+                        <!-- Found <textarea> tag details at https://www.w3schools.com/tags/tag_textarea.asp-->
+                        <textarea id="concerns" name="concerns" rows="2" cols="40" placeholder="Anything else you would like to tell us?"></textarea>
+                    </fieldset>
+                </section>
+
+                <br/>
+                <footer>
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset"/>
+                </footer>
+
+            </form>
+        </main>
+    </body>
+</html>
