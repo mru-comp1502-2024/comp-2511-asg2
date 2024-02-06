@@ -3,7 +3,7 @@ Repository for assignment 1 in comp-2511
 
 Trey L., Harshvir G., Borys P.
 
-Trey did the contactUs page.
-Harsh is doing the home page.
+Trey made the contact us page, navigation table for all pages, and styling of that table.
 
-CSS and other page undecided.
+Harsh is doing the home page.
+CSS and About Us undecided.
