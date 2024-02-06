@@ -1,1 +1,8 @@
 /* This applies to all website pages*/
+th, td {
+    border:1px solid;
+    text-align: center;
+    width:450px;
+}
+
+
