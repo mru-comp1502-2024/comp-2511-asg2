@@ -60,8 +60,15 @@ nav a:hover
 }
 
 #currentPage
+/** Sets the background color of the current page to let user know which page they're on*/
 {
     background-color:#212e54;
+}
+
+nav td a
+/** Makes the full data cell in the navigation clickable  */
+{
+    display: block;
 }
 
 
