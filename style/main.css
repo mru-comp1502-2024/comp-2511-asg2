@@ -1,12 +1,140 @@
 /* This applies to all website pages*/
-th, td {
+th, td 
+{
     border:1px solid;
     text-align: center;
     width:450px;
 }
 
-
-.Homepage{
-    margin-left: 250px;
-    margin-right: 250px;
+nav .Homepage 
+{
+    margin: auto; /* Center the navigation bar horizontally */
 }
+
+/* Resetting default margin and padding that we may or may not use in the future */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body 
+/* Setting a base font size and font family */
+{
+    font-size: 16px; 
+    font-family: Arial, sans-serif; /* Setting font family to Arial */
+}
+
+nav
+/* Styling the navigation */ 
+{
+    
+    background-color: #333;/*Backround color */
+    color: #fff; /*Text color */
+    padding: 10px;
+}
+
+nav table 
+/* Making the table fill the width of the screen*/
+{
+    width: 100%;
+}
+
+nav td {
+    padding: 10px; /* Adding padding */
+}
+
+nav a 
+/* Setting link color for all of them */
+/* Removing underline from links and only shows when we hover over it*/
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover 
+/* Underlining links on hover */
+{
+    text-decoration: underline; 
+}
+
+
+main 
+{
+    padding: 20px;
+    
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+main p 
+{
+    display: inline-block;
+    word-wrap: break-word; /* Allow long words to be broken and wrap onto the next line */
+    max-width: 400px; /* Set the maximum width of each paragraph */
+    max-height: 600px;
+    margin-bottom: 20px; /* Add bottom margin to create space between paragraphs */
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+main p:last-child 
+{
+    margin-right: 0; /* Remove right margin from the last paragraph */
+}
+
+h1
+/* Color of heading */ 
+{
+    color: #333; 
+}
+
+fieldset
+/* Adding margin to separate fieldsets */
+{
+    margin-bottom: 20px;
+}
+
+legend 
+ /* Making legend text bold */
+{
+    font-weight: bold;
+}
+
+label 
+/* Displaying labels as blocks for spacing */
+/* Creates vertical spacing */
+{
+    display: block; 
+    margin-bottom: 5px;
+}
+
+input[type="text"],input[type="email"],
+
+textarea {
+    
+    width: 99%; /* Making input fields and textarea fill the width */
+    padding: 10px; 
+    border: 1px solid #cccccc; 
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+input[type="submit"], input[type="reset"] 
+{
+    padding: 10px 20px; 
+    background-color: #333333; /* Setting background color */
+    color: #ffffff; 
+    border: none; /* Removing border */
+    border-radius: 5px; 
+    cursor: pointer; /* Changing cursor on hover */
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover 
+/* Changing background color on hover */
+{
+    background-color: #555;
+}
+
+
