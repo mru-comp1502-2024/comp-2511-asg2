@@ -6,4 +6,5 @@ Trey L., Harshvir G., Borys P.
 Trey made the contact us page, navigation table for all pages, and styling of that table.
 
 Harsh is doing the home page.
-CSS and About Us undecided.
+
+Borys did About Us and most CSS.

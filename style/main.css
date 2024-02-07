@@ -59,6 +59,11 @@ nav a:hover
     text-decoration: underline; 
 }
 
+#currentPage
+{
+    background-color:#212e54;
+}
+
 
 main 
 {
@@ -137,4 +142,9 @@ input[type="submit"]:hover, input[type="reset"]:hover
     background-color: #555;
 }
 
-
+#mainPageTextLayer
+{
+    position: relative;
+    top:-500px;
+    right:-350px;
+}
