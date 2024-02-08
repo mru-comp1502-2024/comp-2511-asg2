@@ -20,10 +20,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl,
 
 
 body 
-/* Setting a base font size and font family */
+/* Setting a base font size, font family, and line spacing  */
 {
     font-size: 16px; 
-    font-family: Arial, sans-serif; /* Setting font family to Arial */
+    font-family: Georgia, Arial, sans-serif; /* Setting font family and back up fonts */
+    line-height: 2;
 }
 
 nav
