@@ -1,0 +1,14 @@
+/* This applies to the contact us page*/
+
+
+form> p
+/** Overwriting to remove the indent for the "* required field*" text in contact us. */
+{
+    margin-left: 0px;
+}
+
+nav table 
+/* Making the table fill the width of the screen*/
+{
+    width: 100%;
+}

@@ -30,25 +30,15 @@ body
 nav
 /* Styling the navigation */ 
 {
-    
     background-color: #333;/*Backround color */
     color: #fff; /*Text color */
     padding: 10px;
 }
 
-nav table 
-/* Making the table fill the width of the screen*/
-{
-    width: 100%;
-}
-
-nav td {
-    padding: 10px; /* Adding padding */
-}
 
 nav a 
 /* Setting link color for all of them */
-/* Removing underline from links and only shows when we hover over it*/
+/* Removing underline from links*/
 {
     color: #ffffff;
     text-decoration: none;
@@ -58,6 +48,11 @@ nav a:hover
 /* Underlining links on hover */
 {
     text-decoration: underline; 
+}
+
+nav td {
+    /** Makes table cells of navigation table larger for accessibility purposes */
+    padding: 10px; /* Adding padding */
 }
 
 #currentPage
@@ -91,12 +86,6 @@ main p
     margin-left: 100px;
 }
 
-form> p
-/** Overwriting to remove the indent for the "* required field*" text in contact us. */
-{
-    margin-left: 0px;
-}
-
 main p:last-child 
 {
     margin-right: 0px; /* Remove right margin from the last paragraph */
@@ -106,12 +95,6 @@ h1
 /* Color of heading */ 
 {
     color: #333; 
-}
-
-fieldset
-/* Adding margin to separate fieldsets */
-{
-    margin-bottom: 20px;
 }
 
 legend 

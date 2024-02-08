@@ -7,3 +7,21 @@
 figure{
     text-align: center;
 }
+
+
+section .oddRow {
+    background-color: #c5d8f0;
+}
+
+section .evenRow {
+    background-color: lightgray;
+}
+
+section th {
+    background-color: #929292;
+}
+
+table {
+    font-size: 14px;
+    border-collapse: collapse;
+}
