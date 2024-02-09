@@ -1,32 +1,45 @@
-/*This is unique id for the our vision section image*/
-#OurVision{
+/* ---------- Our vision styling --------- */
+#ourVision
+/*This is the unique id for the our vision section image*/
+{
     width: 350px; /*Setting the width of the image to be 350 pixels*/
     height: 350px; /*Setting the height of the image to be 350 pixels*/
     border: solid 4px black; /*Creating a border around for the image */
-    
 }
 
-
-figure{
+figure
+/* Center aligns the image in homepage for our vision */
+{
     text-align: center;
 }
 
 
-section .oddRow {
+
+/* ---------- Our upcoming events styling --------- */
+section table .oddRow
+/* Colours all odd rows a light blue */
+{
     background-color: #c5d8f0;
 }
 
-section .evenRow {
+section table .evenRow
+/* Colours all even rows a light gray */
+{
     background-color: lightgray;
 }
 
-section th {
+section th
+/* Colours the table header a dark gray */
+{
     background-color: #929292;
 }
 
-table {
+section table 
+/* Adjusts the font size to be smaller, and adjusts margins to make the table fit more cohesively
+ with the rest of the page. Removes the left margin because it is already accounted for in the
+ website-wide styling. */
+{
     font-size: 14px;
-    border-collapse: collapse;
-    margin:20px;
+    margin:2%;
     margin-left:0px;
 }
