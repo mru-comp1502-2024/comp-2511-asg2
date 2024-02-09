@@ -25,6 +25,6 @@ section th {
 table {
     font-size: 14px;
     border-collapse: collapse;
-    margin:20px;
-    margin-left:0px;
+    margin-right:100px;
+    margin-left:100px;
 }
