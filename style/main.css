@@ -6,10 +6,6 @@ th, td
     width:450px;
 }
 
-nav .Homepage 
-{
-    margin: auto; /* Center the navigation bar horizontally */
-}
 
 /* Resetting default margin and padding that we may or may not use in the future */
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd 
