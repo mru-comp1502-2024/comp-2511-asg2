@@ -125,3 +125,8 @@ input[type="submit"]:hover, input[type="reset"]:hover
     background-color: #555;
 }
 
+/*Setting the table menu nav at 100% width to fill up the row as a block element*/
+nav table
+{
+    width: 100%;
+}
