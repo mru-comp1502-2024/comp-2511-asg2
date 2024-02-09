@@ -1,7 +1,8 @@
+/*This is unique id for the our vision section image*/
 #OurVision{
-    width: 400px;
-    height: 400px;
-    border: solid 4px black;
+    width: 350px; /*Setting the width of the image to be 350 pixels*/
+    height: 350px; /*Setting the height of the image to be 350 pixels*/
+    border: solid 4px black; /*Creating a border around for the image */
     
 }
 figure{
