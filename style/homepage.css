@@ -43,3 +43,37 @@ section table
     margin:2%;
     margin-left:0px;
 }
+
+
+
+/* *****I'm not sure what below is since I just pulled it***** - Trey */
+h1, h2, h3{
+    text-align: center;
+}
+
+
+.body_text{
+    padding: 50px;
+    background-color: rgba(234, 200, 50, 0.216);
+    border: 3px solid black;
+    font-size: 105%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left:400px;
+    margin-right:400px;
+    color: rgb(39, 37, 37);
+    color: #333;
+
+}
+
+.homepage_links{
+    background-color: #333333;
+    border: 2px #1f1f1f;
+    padding: 8px; 
+    color: white;
+}
+
+.homepage_links:hover{
+    background-color: #555;
+    color: rgb(231, 223, 223);
+}
