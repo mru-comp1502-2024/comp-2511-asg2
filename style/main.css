@@ -4,7 +4,7 @@ body
  The left margin is adjusted to give some space between the page border and the text itself. */
 {
     font-size: 16px; 
-    font-family: Georgia, Arial, sans-serif;
+    font-family: monospace, Georgia, Arial, sans-serif;
     line-height: 2;
     margin-left: 2%; 
 }
@@ -37,9 +37,18 @@ nav
     background-color: #333;
     color: #fff;    
     padding: 20px; /* This adds that nice gray padding that extends past the table itself. */
-    margin-left: -2%;
+    /* margin-left: -2%;
     margin-top:-1%;
-    margin-right:-1%
+    margin-right:-1% */
+}
+
+nav table
+/* Styling to apply to the table as a whole, excluding margins/padding/other things in nav. */
+/* Realized display:table and display:table-cell in the next styling were a thing thanks to
+ Jose's answer here: https://stackoverflow.com/questions/10525744/css-table-cell-equal-width/ */
+{
+    display: table;
+    width: 100%;
 }
 
 nav table th, td
@@ -47,9 +56,11 @@ nav table th, td
  take up the proper spacing. Width is in pixels. A possible optimization would be to make 
  this % scaled to properly manage all resolutions. */
 {
+    display: table-cell;
+    max-width: 0;
     border:1px solid;
     text-align: center;
-    width:450px; 
+
 }
 
 nav table td a
@@ -59,7 +70,9 @@ nav table td a
  Additionally, makes the link a block element so that the full cell is clickable. */
 {
     color: #ffffff;
-    display: block;
+    display: table;
+    width: 100%;
+
 }
 
 nav table #currentPage
