@@ -16,3 +16,11 @@ main article p
     clear:both;
     float:left;
 }
+
+footer
+/* Styling to apply to the footer */
+{
+    clear:both;
+    float:left;
+    margin-top: 30px;
+}
