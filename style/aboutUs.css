@@ -1,9 +1,18 @@
-.person-image
-/* Styling to apply to the about us profile photos. I tried to make these go side-by-side
- based on learning from here https://www.w3schools.com/howto/howto_css_images_side_by_side.asp,
- but was unsuccessful for now, not sure how yet.*/
+main p::first-letter
+/* Styling to apply to the first letter of each about us paragraph, excluding the nav table */
 {
+    font-size: 200%;
+    color:#131313; /* Slight off-black because when the font is so big the black is too much. */
+}
+
+figure
+{
+    position: relative;
     float:left;
-    width: 20%;
-    box-sizing: border-box;
+}
+
+main article p
+{
+    clear:both;
+    float:left;
 }
