@@ -1,5 +1,6 @@
 main p::first-letter
-/* Styling to apply to the first letter of each about us paragraph, excluding the nav table */
+/* Styling to apply to the first letter of each about us paragraph, excluding the nav table.
+   This is a pseudo element selector. */
 {
     font-size: 200%;
     color:#131313; /* Slight off-black because when the font is so big the black is too much. */
