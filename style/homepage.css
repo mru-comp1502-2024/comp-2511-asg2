@@ -56,6 +56,10 @@ figure {
     text-align: center; /* Centering the figure */
 }
 
+figcaption {
+    text-align: center;
+}
+
 /* This is the unique id for the our vision section image */
 #ourVision {
     width: 350px; /* Setting the width of the image to be 350 pixels */
@@ -87,3 +91,5 @@ section table {
     margin-right: auto; /* Centering the table horizontally */
     width: 90%;
 }
+
+
