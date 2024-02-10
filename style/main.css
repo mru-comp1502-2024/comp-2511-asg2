@@ -9,15 +9,6 @@ body {
     margin-left: 2%; 
 }
 
-main p {
-    /* Styling for text blocks in the website. Sets the dimensions and horizontal spacing
-    of each text block. */
-    display: inline-block;
-    max-width: 400px; 
-    max-height: 600px;
-    margin-right: 100px;
-    margin-left: 100px;
-}
 
 table {
     /** For both tables on the website, we want a collapsed border. */
