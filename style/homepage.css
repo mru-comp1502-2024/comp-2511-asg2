@@ -8,8 +8,6 @@ h1, h2, h3 {
 /* Styling for the body text in the index.html with padding, background color and margin to center in the webpage */
 .body_text {
     padding: 50px;
-    margin-bottom: 50px;
-    margin-top: 50px; /* Adjust top margin as needed */
 
     background-color: rgba(234, 200, 50, 0.216);
     border: 3px solid black;
@@ -47,6 +45,7 @@ a[href="#upcomingEvents"] {
     display: block; /* Ensuring the link takes full width */
     text-align: center; /* Centering the link text */
     margin: 0 auto; /* Centering the link horizontally */
+    grid-row: 2/3;
 }
 
 /* ---------- Our vision styling --------- */
@@ -92,4 +91,24 @@ section table {
     width: 90%;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    gap: 10px;
+}
+footer p{
+    text-align: center;
+}
 
+#visionportion{
+    grid-row: 3/4;
+}
+
+#bodytext4{
+    grid-row: 4/5;
+}
+
+#Learn_more{
+    grid-row: 5/6;
+}
