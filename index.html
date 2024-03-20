@@ -15,19 +15,11 @@
 
     <body>
         <nav>
-            <table class="Homepage">
-                <tr>
-                    <th colspan="3"><p>Engage MRU</p></th>
-                </tr>  
-
-                <tr>
-                    <td id="currentPage"><a href="index.html">Home</a></td>
-
-                    <td><a href="pages/contactUs.html">Contact Us</a></td>
-
-                    <td><a href="pages/aboutUs.html">About Us</a></td>
-                </tr>
-            </table>
+            <img id="logo_image" src="images/Logo.jpg" alt="Engage MRU logo"/>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="pages/aboutUs.html">About Us</a>
+            </div>
         </nav>
 
         <br/><br/>
@@ -119,6 +111,37 @@
                 </tr>
             </table>
         </section>
+
+        
+
+        <form id="contactUs" method="post" action="mailto:engageMRU@mtroyal.ca">
+            <div>
+                <fieldset>                    
+                    <legend>Email Information</legend>
+
+                    <!--size is 50 because that is the width needed if filled max width characters, such as em dashes or "M"-->
+                    <label for="subject">Subject:*</label>
+                    <br/>
+                    <input type="text" name="subject" id="subject" maxlength="30" size="53" required/>
+                    <br/>
+                    <small>Cannot exceed 30 characters.</small>
+
+                    <br/>
+
+                    <label for="emailBody">Email Body:*</label>
+                    <br/>
+                    <textarea id="emailBody" name="emailBody" rows="6" cols="50" placeholder="Please supply the details of your inquiry here." required></textarea>
+                </fieldset>
+            </div>
+
+            <div>
+                <p>* denotes a required field</p>
+                <input type="submit" value="Send Message" />
+                <input type="reset" value="Clear"/>
+            </div>
+
+
+        </form>
 
         <footer>
             <p><em>&copy; Engage MRU | Est. 2024</em></p>

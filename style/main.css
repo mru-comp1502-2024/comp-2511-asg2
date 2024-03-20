@@ -6,59 +6,34 @@ body {
     font-size: 16px; 
     font-family: monospace, Georgia, Arial, sans-serif;
     line-height: 2;
-    margin-left: 2%; 
-}
-
-
-table {
-    /** For both tables on the website, we want a collapsed border. */
-    border-collapse: collapse;
 }
 
 /* ------------- Navigation Styling ------------- */
 
 nav {
-    /* Styling to apply to the full table. Margin and padding are for design purposes, so that
-    the gray extends to the sides of the page. The margin numbers are to negate the website-wide margin
-    without affecting it directly.*/
+    /* Styling to apply to the navigation header.*/
     background-color: #333;
-    color: #fff;    
-    padding: 20px; /* This adds that nice gray padding that extends past the table itself. */
-    /* margin-left: -2%;
-    margin-top:-1%;
-    margin-right:-1% */
+    color: white;    
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column: 1/-1;
+    font-size: 16px;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100px;
 }
 
-nav table {
-    /* Styling to apply to the table as a whole, excluding margins/padding/other things in nav. */
-    /* Realized display:table and display:table-cell in the next styling were a thing thanks to
-    Jose's answer here: https://stackoverflow.com/questions/10525744/css-table-cell-equal-width/ */
-    display: table;
-    width: 100%;
-}
+ nav div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
 
-nav table th,
-nav table td {
-    /* Styling to apply to each cell in the navigation table. Make them bordered, centered, and
-    take up the proper spacing. Width is in pixels. A possible optimization would be to make 
-    this % scaled to properly manage all resolutions. */
-    display: table-cell;
-    max-width: 0;
-    border:1px solid;
-    text-align: center;
-}
+  nav a {
+    color: white;
+  }
 
-nav table td a {
-    /* Styling to apply to the links in the navigation table. Setting the colour of the
-    navigation links so that they remain a constant colour regardless of the click state.
-    This is for accessibility purposes, as the default clicked-on-purple blends poorly on gray.
-    Additionally, makes the link a block element so that the full cell is clickable. */
-    color: #ffffff;
-    display: table;
-    width: 100%;
-}
-
-nav table #currentPage {
-    /** Based on the current page, adjusts the background color of that cell to reflect that. */
-    background-color:#212e54;
-}
+  nav img {
+    height: 80px;
+  }
