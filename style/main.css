@@ -9,6 +9,16 @@ body {
     text-align: center;
 }
 
+@media screen and (min-width: 590px){
+    header{
+        height: 400px;
+        margin-top: -1.5%;
+    }
+    nav{
+        height: 125px;
+    }
+}
+
 /* ------------- Navigation Styling ------------- */
 nav {
     /* Styling to apply to the navigation header.*/
