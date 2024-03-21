@@ -55,3 +55,9 @@ nav img {
     padding-left: 15%;
     height: 80px;
 }
+
+footer p{
+    text-align: center;
+    background-color: lightgrey;
+    margin-bottom: -5%;
+}
