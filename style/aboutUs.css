@@ -29,7 +29,10 @@ footer
 /* Styling to apply to the footer */
 {
     clear:both;
-    margin-top: 30px;
+    margin-bottom: -5%;
+    background-color: lightgrey;
+    font-weight: 600;
+
 }
 
 main p {
@@ -43,6 +46,3 @@ main p {
     border: 3px solid black;
 }
 
-footer{
-    background-color: lightgrey;
-}
