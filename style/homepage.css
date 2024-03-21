@@ -28,7 +28,7 @@ header img {
     background-color: rgba(234, 200, 50, 0.216);
     border: 3px solid black;
     text-align: center; 
-    height: 400px;
+    height: fit-content;
 }
 
 /* */
