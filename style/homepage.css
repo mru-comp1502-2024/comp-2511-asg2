@@ -48,7 +48,7 @@ figure {
 
 
 /* This is the unique id for the our vision section image */
-#ourVision {
+#ourVisionImage {
     height: 100px; /* Setting the height of the image to be 350 pixels */
     border: solid 4px black; /* Creating a border around for the image */
 }
@@ -65,11 +65,11 @@ figure {
         height: 150%;
     }
     
-    #visionportion{
+    #ourVision2{
         grid-row: 3/4;
     }
 
-    #bodytext4{
+    #overview3{
         grid-row: 4/5;
     }
 
