@@ -64,18 +64,6 @@ figure {
     footer {
         height: 150%;
     }
-    
-    #ourVision2{
-        grid-row: 3/4;
-    }
-
-    #overview3{
-        grid-row: 4/5;
-    }
-
-    #Learn_more{
-        grid-row: 5/6;
-    }
 }
 
 form{
