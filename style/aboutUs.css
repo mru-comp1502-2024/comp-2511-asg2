@@ -35,11 +35,9 @@ footer
 main p {
     /* Styling for text blocks in the website. Sets the dimensions and horizontal spacing
     of each text block. */
-    display: inline-block;
-    max-width: 400px; 
-    max-height: 600px;
-    margin-right: 100px;
-    margin-left: 100px;
+    display: inline-block; 
+    margin-right: 25px;
+    margin-left: 25px;
     padding: 50px;
     background-color: rgba(234, 200, 50, 0.216);
     border: 3px solid black;
