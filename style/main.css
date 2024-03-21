@@ -24,16 +24,36 @@ nav {
     height: 100px;
 }
 
- nav div {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-  }
+nav div {
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+}
 
-  nav a {
-    color: white;
-  }
+nav a {
+color: white;
+}
 
-  nav img {
-    height: 80px;
-  }
+nav img {
+height: 80px;
+}
+
+
+/* ------------- Header Styling ------------- */
+
+header {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+header h1 {
+    position: relative;
+    margin-bottom: -5%;
+}
+
+header img {
+height: 200px;
+padding-top: 7%;
+padding-bottom: 2%;
+
+}
