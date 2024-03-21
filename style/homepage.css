@@ -27,15 +27,12 @@ header img {
     height: fit-content;
 }
 
-/* */
 .externalButton {
     background-color: #333333;
     border: 2px #1f1f1f;
     padding: 8px; 
     color: white;
 }
-
-/* ---------- Our vision styling --------- */
 
 /* This is the unique id for the our vision section image */
 #ourVisionImage {
@@ -44,6 +41,8 @@ header img {
     border: solid 2px black; /* Creating a border around for the image */
 }
 
+
+/* Medium Size */
 @media screen and (min-width: 590px){
     main{
         display: grid;
