@@ -6,10 +6,10 @@ body {
     font-size: 16px; 
     font-family: monospace, Georgia, Arial, sans-serif;
     line-height: 2;
+    text-align: center;
 }
 
 /* ------------- Navigation Styling ------------- */
-
 nav {
     /* Styling to apply to the navigation header.*/
     background-color: #333;
@@ -18,42 +18,33 @@ nav {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-column: 1/-1;
-    font-size: 16px;
-    padding-left: 2%;
-    padding-right: 2%;
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav div {
-display: flex;
-justify-content: flex-end;
-gap: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    gap: 40px;
 }
 
 nav a {
-color: white;
+    font-weight: bold;
+    background-color:white;
+    color:black;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+#currentPage {
+    background-color:rgb(163, 163, 163);
 }
 
 nav img {
-height: 80px;
-}
-
-
-/* ------------- Header Styling ------------- */
-
-header {
-    background-color: lightgrey;
-    text-align: center;
-}
-
-header h1 {
-    position: relative;
-    margin-bottom: -5%;
-}
-
-header img {
-height: 200px;
-padding-top: 7%;
-padding-bottom: 2%;
-
+    padding-left: 15%;
+    height: 80px;
 }

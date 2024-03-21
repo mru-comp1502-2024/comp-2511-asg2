@@ -1,51 +1,37 @@
-/* ---------- Page-wide styling --------- */
+/* ------------- Header Styling ------------- */
+header {
+    background-color: lightgrey;
+}
 
-/* These text align the heading 1,2,3 tags to the center */
-h1, h2, h3 {
-    text-align: center;
+header h1 {
+    margin-bottom: -5%;
+}
+
+header h2 {
+    font-weight: 100;
+    font-size: 16px ;
+}
+
+header img {
+    height: 200px;
+    padding-top: 7%;
+    padding-bottom: 2%;
 }
 
 /* Styling for the body text in the index.html with padding, background color and margin to center in the webpage */
 .body_text {
     padding: 50px;
-
     background-color: rgba(234, 200, 50, 0.216);
     border: 3px solid black;
-    font-size: 105%;
-    text-align: center; /* Center aligning the text */
-    margin: 0 auto; /* Centering the text horizontally */
-
-    color: #333;
+    text-align: center; 
 }
 
-/* Setting a background color, text color and border + padding for the external/internal links on the homepage apart of a class element */
-.homepage_links {
+/* */
+.externalButton {
     background-color: #333333;
     border: 2px #1f1f1f;
     padding: 8px; 
     color: white;
-}
-
-/* Pseudo selector for the hover property of the link to change background and text color slightly */
-.homepage_links:hover {
-    background-color: #555555;
-    color: #e7dfdf;
-}
-
-/* Setting the logo image styling to the center of the page */
-#logo_image {
-    display: block; /* To ensure the margin auto works properly */
-    margin: 0 auto; /* Centering the image horizontally */
-    margin-top: -50px;
-    margin-bottom: -50px;
-}
-
-/* Attribute selectors used to center the 'upcoming events' link on the page */
-a[href="#upcomingEvents"] {
-    display: block; /* Ensuring the link takes full width */
-    text-align: center; /* Centering the link text */
-    margin: 0 auto; /* Centering the link horizontally */
-    grid-row: 2/3;
 }
 
 /* ---------- Our vision styling --------- */
@@ -55,9 +41,6 @@ figure {
     text-align: center; /* Centering the figure */
 }
 
-figcaption {
-    text-align: center;
-}
 
 /* This is the unique id for the our vision section image */
 #ourVision {
@@ -66,35 +49,11 @@ figcaption {
     border: solid 4px black; /* Creating a border around for the image */
 }
 
-/* ---------- Our upcoming events styling --------- */
-
-/* Colours all odd rows a light blue */
-section table .oddRow {
-    background-color: #c5d8f0;
-}
-
-/* Colours all even rows a light gray */
-section table .evenRow {
-    background-color: lightgray;
-}
-
-/* Colours the table header a dark gray */
-section th {
-    background-color: #929292;
-}
-
-/* Adjusts the font size to be smaller, and adjusts margins to make the table fit more cohesively with the rest of the page. Removes the left margin because it is already accounted for in the website-wide styling. */
-section table {
-    font-size: 14px;
-    margin-left: auto; /* Centering the table horizontally */
-    margin-right: auto; /* Centering the table horizontally */
-    width: 90%;
-}
 
 main{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 10px;
 }
 footer p{

@@ -15,45 +15,43 @@
 
     <body>
         <nav>
-            <img id="logo_image" src="images/Logo.jpg" alt="Engage MRU logo"/>
+            <img src="images/Logo.jpg" alt="Engage MRU logo"/>
             <div>
-                <a href="index.html">Home</a>
+                <a href="index.html" id="currentPage">Home</a>
                 <a href="pages/aboutUs.html">About Us</a>
             </div>
         </nav>
 
         <header>
             <h1>Engage MRU</h1> 
-            <p>Connecting our school. One student at a time.</p>
+            <h2>Connecting our school. One student at a time.</h2>
             <img id="logo_image" src="images/Logo.jpg" alt="Engage MRU logo in white Color"/>
         </header>
 
         <br/>
 
-        <h1>Overview</h1>
         <main>
-            <p class="body_text">Throughout the student career of education, students complete a lot of tasks
-                from assignments, quizzes, tests, finals, and diplomas at some point in time.
-                Students oftentimes face stress or anxiety while completing a task from school.
-                We'd agree that participating in Extracurricular activities help students manage stress.
-                These type of activities focus our attention away from our problems and enjoy the nature of extracurriculars.
-                Extracurricular activies include joining a club, a team, intramurals or doing sports on the side. 
-            </p>      
-
-
-            <section>
-                <a class="homepage_links" href="#upcomingEvents">Our Upcoming Events</a>
-                <div id="visionportion">
-                    <h2>Our Vision</h2>
-                    <!--This image for aesthics purposes only so it has no alt attribute content-->
-                    <figure>
-                        <img id="ourVision" src="images/OurVisionPhoto.jpg" alt="Photo of Assorted Letter Board Quote Hanged on Wall"/>
-                        <figcaption><cite>Mikechie Esparagoza | Pexels | <br/>https://www.pexels.com/photo/photo-of-assorted-letter-board-quote-hanged-on-wall-1742370/<br/>Accessed on 02/09/24</cite></figcaption>
-                    </figure>
-                </div>
+            <section id="overview1">
+                <h1>Overview</h1>
+                <p class="body_text">Throughout the student career of education, students complete a lot of tasks
+                    from assignments, quizzes, tests, finals, and diplomas at some point in time.
+                    Students oftentimes face stress or anxiety while completing a task from school.
+                    We'd agree that participating in Extracurricular activities help students manage stress.
+                    These type of activities focus our attention away from our problems and enjoy the nature of extracurriculars.
+                    Extracurricular activies include joining a club, a team, intramurals or doing sports on the side. 
+                </p>      
+            </section>
+            
+            <section id="ourVision2">
+                <h2>Our Vision</h2>
+                <figure> <!--This image for aesthics purposes only so it has no alt attribute content-->
+                    <img id="ourVision" src="images/OurVisionPhoto.jpg" alt="Photo of Assorted Letter Board Quote Hanged on Wall"/>
+                    <figcaption><cite>Mikechie Esparagoza | Pexels | https://www.pexels.com/photo/photo-of-assorted-letter-board-quote-hanged-on-wall-1742370/ Accessed on 02/09/24</cite></figcaption>
+                </figure>
+            </section>
                     
-                    <br/>
-                <div id="bodytext4">
+            <section id="overview3">
+                <div>
                     <p class="body_text">
                         We would like to expand the reach of our services and information about the importance of extracurricular actvities<br/> 
                         to a global audience. This way we can share our knowledge and benefits around extracurricular activites to the world.<br/>
@@ -62,58 +60,16 @@
                 </div>  
             </section>   
 
-            <section id="Learn_more">
-                <h2><strong>Learn More</strong></h2>
-                    <p class="body_text">
-                        To learn more about our inspiration in starting this company among us three, 
-                        <br/>
-                        <a class="homepage_links" href="https://www.sciencedirect.com/science/article/abs/pii/S0091743520303157" target="_blank">Check it Out!</a>
-                    </p>
+            <section id="learnMore4">
+                <h2><strong>Learn More</h2>
+                <p class="body_text">To learn more about our inspiration in starting this company among us three,
+                    <br/>
+                    <a class="externalButton" href="https://www.sciencedirect.com/science/article/abs/pii/S0091743520303157" target="_blank">Check it Out!</a>
+                </p>
             </section>
         </main>
+
         <br/>
-
-        <section>
-            <h2 id="upcomingEvents">Our Upcoming Events</h2>
-            <table id="Event_Table">
-                <tr>
-                    <th>Date</th>
-                    <th>Event</th>
-                    <th>Details</th>
-                    <th>Location</th>
-                </tr>
-
-                <tr class="oddRow">
-                    <td>February 14</td>
-                    <td>MRU potluck!</td>
-                    <td>Annual campus-wide potluck, come hungry!</td>
-                    <td>Outside the East gate</td>
-                </tr>
-
-                <tr class="evenRow">
-                    <td>February 19</td>
-                    <td>Club Day!</td>
-                    <td>Learn about extracirriculars around campus.</td>
-                    <td>Main hallway</td>
-                </tr>
-
-                <tr class="oddRow">
-                    <td>February 24</td>
-                    <td>Job Fair!</td>
-                    <td>Come and find summer jobs.</td>
-                    <td>Main hallway</td>
-                </tr>
-
-                <tr class="evenRow">
-                    <td>February 29</td>
-                    <td>Club application deadline</td>
-                    <td>Final day to apply for the creation of a new SAMRU-certified club.</td>
-                    <td>N/A</td>
-                </tr>
-            </table>
-        </section>
-
-        
 
         <form id="contactUs" method="post" action="mailto:engageMRU@mtroyal.ca">
             <div>
