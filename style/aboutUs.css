@@ -5,24 +5,30 @@ main p::first-letter
     font-size: 200%;
     color:#131313; /* Slight off-black because when the font is so big the black is too much. */
 }
-
-figure
-{
+header {
+    background-color: lightgrey;
+}
+header h1 {
+    margin-bottom: -5%;
+}
+header img {
+    height: 200px;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+figure{
     position: relative;
-    float:left;
 }
 
 main article p
 {
     clear:both;
-    float:left;
 }
 
 footer
 /* Styling to apply to the footer */
 {
     clear:both;
-    float:left;
     margin-top: 30px;
 }
 
@@ -34,4 +40,11 @@ main p {
     max-height: 600px;
     margin-right: 100px;
     margin-left: 100px;
+    padding: 50px;
+    background-color: rgba(234, 200, 50, 0.216);
+    border: 3px solid black;
+}
+
+footer{
+    background-color: lightgrey;
 }
