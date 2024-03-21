@@ -1,6 +1,7 @@
 /* ------------- Header Styling ------------- */
 header {
     background-color: lightgrey;
+    width: 100%;
 }
 
 header h1 {
@@ -47,13 +48,6 @@ figure {
     width: 350px; /* Setting the width of the image to be 350 pixels */
     height: 350px; /* Setting the height of the image to be 350 pixels */
     border: solid 4px black; /* Creating a border around for the image */
-}
-
-
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
 }
 
 @media screen and (min-width: 590px){
