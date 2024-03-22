@@ -1,7 +1,7 @@
 /* ------------- Header Styling ------------- */
 header {
-    background-color: lightgrey;
     width: 100%;
+    background-color: lightgrey;
 }
 
 header h2 {
