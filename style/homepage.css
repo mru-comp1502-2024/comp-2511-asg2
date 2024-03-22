@@ -50,8 +50,6 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-<<<<<<< HEAD
-=======
         gap: 20px;
         margin-left: 40px;
         margin-right: 40px;
@@ -76,7 +74,6 @@ main {
         width: 590px;
         margin-left: auto;
         margin-right: auto;
->>>>>>> 01deadea882b55cae31baa5b184f8f1feaf183f5
     }
     footer {
         height: 150%;
