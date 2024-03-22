@@ -20,11 +20,10 @@ header img {
 
 /* Styling for the body text in the index.html with padding, background color and margin to center in the webpage */
 .body_text {
-    padding: 50px;
+    padding: 30px;
     background-color: rgba(234, 200, 50, 0.216);
     border: 3px solid black;
     text-align: center; 
-    height: fit-content;
 }
 
 .externalButton {
@@ -49,14 +48,28 @@ header img {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
+    #column_two_boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    fieldset{
+        width: 590px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     footer {
         height: 150%;
     }
 }
 
 form{
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
