@@ -39,9 +39,9 @@ main p {
     /* Styling for text blocks in the website. Sets the dimensions and horizontal spacing
     of each text block. */
     display: inline-block; 
-    margin-right: 25px;
-    margin-left: 25px;
-    padding: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 40px;
     background-color: rgba(234, 200, 50, 0.216);
     border: 3px solid black;
 }
