@@ -63,7 +63,7 @@ main {
     header{
         margin-top: -3%;
     }
-    #column_two_boxes{
+    .boxCentering{
         display: flex;
         flex-direction: column;
         justify-content: center;
