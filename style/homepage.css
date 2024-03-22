@@ -59,6 +59,9 @@ header img {
         height: 180px;
         width: 200px;
     }
+    header{
+        margin-top: -3%;
+    }
     #column_two_boxes{
         display: flex;
         flex-direction: column;
