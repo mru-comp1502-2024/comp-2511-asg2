@@ -52,6 +52,10 @@ header img {
         margin-right: 40px;
     }
 
+    header img{
+        height: 180px;
+        width: 200px;
+    }
     #column_two_boxes{
         display: flex;
         flex-direction: column;
