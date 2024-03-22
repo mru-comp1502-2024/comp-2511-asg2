@@ -14,8 +14,7 @@ header h2 {
 
 header img {
     height: 200px;
-    padding-top: 7%;
-    padding-bottom: 2%;
+    padding-top: 5%;
 }
 
 /* Styling for the body text in the index.html with padding, background color and margin to center in the webpage */
@@ -41,6 +40,9 @@ header img {
     border: solid 2px black; /* Creating a border around for the image */
 }
 
+main {
+    gap: 20px;
+}
 
 /* Medium Size */
 @media screen and (min-width: 590px){
