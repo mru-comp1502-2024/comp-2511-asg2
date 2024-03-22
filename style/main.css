@@ -6,9 +6,10 @@ body {
     font-size: 16px; 
     font-family: monospace, Georgia, Arial, sans-serif;
     line-height: 2;
-    text-align: center;
+    text-align: center; 
 }
 
+/*Medium device universal rules that applies to both pages*/
 @media screen and (min-width: 590px){
     header{
         height: 400px;
@@ -16,6 +17,15 @@ body {
     }
     nav{
         height: 125px;
+    }
+}
+
+/*Large device rules for both webpages in the website*/
+@media screen and (min-width: 790px){
+    body{
+        width: 790px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -28,6 +38,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-column: 1/-1;
+    margin-top: -1%;
 }
 
 nav div {
@@ -53,6 +64,8 @@ nav a {
 nav img {
     padding-left: 15%;
     height: 80px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 footer p{

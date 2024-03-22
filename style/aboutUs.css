@@ -8,9 +8,6 @@ main p::first-letter
 header {
     background-color: lightgrey;
 }
-header h1 {
-    margin-bottom: -5%;
-}
 header img {
     height: 200px;
     padding-top: 7%;
@@ -20,6 +17,9 @@ figure{
     position: relative;
 }
 
+body h1{
+    margin-bottom: 5%;
+}
 main article p
 {
     clear:both;
@@ -39,10 +39,39 @@ main p {
     /* Styling for text blocks in the website. Sets the dimensions and horizontal spacing
     of each text block. */
     display: inline-block; 
-    margin-right: 25px;
-    margin-left: 25px;
-    padding: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 40px;
     background-color: rgba(234, 200, 50, 0.216);
     border: 3px solid black;
 }
 
+@media screen and (min-width: 590px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+ 
+    figure img{
+        border-radius: 50px;
+        border: 5px lightgrey solid;
+    }
+    #top_left_box figure img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid_boxes{
+        background-color: rgba(234, 200, 50, 0.216);
+        border: 3px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
