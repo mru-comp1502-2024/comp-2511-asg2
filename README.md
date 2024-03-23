@@ -9,4 +9,6 @@ Borys (Written by Trey and shown to Harsh):
 Borys was asked to do tasks 2 and 3 (accessibility and netlify) a week in advance of the due date but went silent. We reached out multiple times leading up to the due date. As far as we are aware, Borys also never pulled the new website. On the second last day before the due date, Trey did Borys' tasks. Trey worked with Harsh for color contrast grading and other manual elements of accessibility.
 
 Harshvir:
-I created the 2x2 grid layout and intialized it across both websites (aboutUs and Homepage). I adjusted the 2x2 grid and worked through it with Trey to make it look the best it could be. I adjusted and fixed some small device issues with spacing between content boxes and the logo image sizing for small device. I added the media query for the large device that followed the mostly fluid layout. I tried to adjust the footer and contact form to be spread out accordingly. 
+I created the 2x2 grid layout and intialized it across both websites (aboutUs and Homepage). I adjusted the 2x2 grid and worked through it with Trey to make it look the best it could be. I adjusted and fixed some small device issues with spacing between content boxes and the logo image sizing for small device. I added the media query for the large device that followed the mostly fluid layout. I tried to adjust the footer and contact form to be spread out accordingly. I did HTML validation and checked one portion of accessibility of color contrast ratio using WebAim across the website. 
+
+
