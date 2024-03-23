@@ -63,12 +63,12 @@ header img {
     }
 }
 
-form div input:hover
+form div input[type=submit]:hover, form div input[type=reset]:hover
 /* Styling to apply to the first letter of each about us paragraph, excluding the nav table.
    This is a pseudo element selector. */
 {
     cursor: pointer;
-    outline: 2px solid orange;
+    outline: 2px solid black;
     background-color: rgb(49, 106, 125);
     color: white;
 }
