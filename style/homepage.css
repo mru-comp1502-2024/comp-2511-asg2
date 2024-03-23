@@ -1,7 +1,7 @@
 /* ------------- Header Styling ------------- */
 header {
     width: 100%;
-    background-color: lightgrey;
+    background-color:rgb(163, 163, 163);
 }
 
 header h2 {
@@ -17,6 +17,8 @@ header img {
     padding-top: 5%;
 }
 
+
+/* ------------- Miscellaneous Styling ------------- */
 .externalButton {
     background-color: #333333;
     border: 2px #1f1f1f;
@@ -26,16 +28,12 @@ header img {
 
 /* This is the unique id for the our vision section image */
 #ourVisionImage {
-    text-align: center; /* Centering the figure */
-    height: 100px; /* Setting the height of the image to be 350 pixels */
-    border: solid 2px black; /* Creating a border around for the image */
+    text-align: center;
+    height: 100px;
+    border: solid 2px black;
 }
 
-main {
-    gap: 20px;
-}
-
-/* Medium Size */
+/* ------------- Miscellaneous Size ------------- */
 @media screen and (min-width: 590px){
     main{
         display: grid;
@@ -65,8 +63,16 @@ main {
     }
 }
 
+form div input:hover
+/* Styling to apply to the first letter of each about us paragraph, excluding the nav table.
+   This is a pseudo element selector. */
+{
+    cursor: pointer;
+    outline: 2px solid orange;
+    background-color: rgb(49, 106, 125);
+    color: white;
+}
 form{
     margin-top: 10px;
     margin-bottom: 50px;
 }
-
