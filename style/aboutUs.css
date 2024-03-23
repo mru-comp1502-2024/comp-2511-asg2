@@ -6,10 +6,6 @@ main p::first-letter
     color:#131313; /* Slight off-black because when the font is so big the black is too much. */
 }
 
-body h1{
-    margin-bottom: 5%;
-}
-
 @media screen and (min-width: 590px){
     main{
         display: grid;
