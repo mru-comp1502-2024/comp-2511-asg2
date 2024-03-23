@@ -17,15 +17,6 @@ header img {
     padding-top: 5%;
 }
 
-/* Styling for the body text in the index.html with padding, background color and margin to center in the webpage */
-.body_text {
-    padding: 30px;
-    background-color: rgba(234, 200, 50, 0.216);
-    border: 3px solid black;
-    text-align: center; 
-    margin-bottom: 20px;
-}
-
 .externalButton {
     background-color: #333333;
     border: 2px #1f1f1f;
@@ -63,12 +54,7 @@ main {
     header{
         margin-top: -3%;
     }
-    .boxCentering{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+
     fieldset{
         width: 590px;
         margin-left: auto;

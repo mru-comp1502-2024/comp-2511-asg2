@@ -7,6 +7,23 @@ body {
     font-family: monospace, Georgia, Arial, sans-serif;
     line-height: 2;
     text-align: center;
+    background-color: lightblue;
+}
+
+/* Styling for the body text in the index.html with padding, background color and margin to center in the webpage */
+.body_text {
+    padding: 30px;
+    background-color: rgba(234, 200, 50, 0.216);
+    border: 3px solid black;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.boxCentering{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Medium device universal rules that applies to both pages*/
@@ -25,7 +42,6 @@ body {
         width: 790px;
         margin-left: auto;
         margin-right: auto;
-        background-color: white;
     }
 }
 
@@ -72,4 +88,8 @@ footer p{
     text-align: center;
     background-color: lightgrey;
     margin-bottom: -5%;
+}
+
+#fullContentColor {
+    background-color: white;
 }
