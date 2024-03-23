@@ -94,12 +94,18 @@ footer p{
     background-color: white;
 }
 
-#skipnav {
+#skipNav {
     position:absolute;
     top:-200px;
-    display: hidden;
 }
 
-#skipnav:focus {
+#skipNav:focus {
 	top:10px;
+    left: 20px;
+    background-color:white;
+    color:black;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: bold;
 }
