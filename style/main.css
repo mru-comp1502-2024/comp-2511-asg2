@@ -93,3 +93,13 @@ footer p{
 #fullContentColor {
     background-color: white;
 }
+
+#skipnav {
+    position:absolute;
+    top:-200px;
+    display: hidden;
+}
+
+#skipnav:focus {
+	top:10px;
+}
