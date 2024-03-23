@@ -3,7 +3,7 @@ Repository for assignment 2 in comp-2511
 
 Trey L., Harshvir G., Borys P.
 
-Trey: I did the majority of the default sizing (small) and worked with Harsh on the grid for medium/large. I made the navigation for both pages, the header for the homepage, and handled the removing of the contact us page and all related CSS. I also removed unneccessary code leftover from assignment 1 that wasn't required for this assignment 2 (ie. links to different parts of the website). I added the skip nav, checked the automated accessibility checkers, and netlify on Borys' behalf. 
+Trey: I did the majority of the default sizing (small) and worked with Harsh on the grid for medium/large. I made the navigation for both pages, the header for the homepage, and handled the removing of the contact us page and all related CSS. I also removed unneccessary code leftover from assignment 1 that wasn't required for this assignment 2 (ie. links to different parts of the website). I added the skip nav, checked the automated accessibility checkers, and netlify all on Borys' behalf. 
 
 Borys (Written by Trey and shown to Harsh):
 Borys was asked to do parts 2 and 3 (accessibility and netlify) a week in advance of the due date but went silent. We reached out multiple times leading up to the due date. As far as we are aware, Borys also never pulled the new website. On the second last day before the due date, Trey did Borys' tasks. Trey worked with Harsh for color contrast grading and other manual elements of accessibility.
